@@ -1,0 +1,13 @@
+<!--pages/pt/pt.wxml-->
+<view class="ptitle">
+    <view class="title">
+        <input class="" placeholder="#加个标题吧!" confirm-type="done" bindinput="inp_title"></input>
+    </view>
+    <view class="btn">
+        <button class="receive" bindtap="btnClick" size="mini">发布</button>
+    </view>
+    <view class="content">
+        <textarea placeholder="#来发布你的任务吧" bindinput="inp_content">
+        </textarea>
+    </view>
+</view>

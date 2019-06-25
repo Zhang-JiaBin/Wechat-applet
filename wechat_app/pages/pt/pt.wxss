@@ -1,0 +1,22 @@
+/* pages/pt/pt.wxss */
+.ptitle{
+    display: flex;
+    padding: 10rpx;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.title{
+    width: 84%;
+    border-radius: 5rpx;
+    font-size: 32rpx;
+    border-bottom: 1rpx grey solid;
+    padding: 5rpx;
+}
+.content {
+    border-radius: 10rpx;
+    font-size: 28rpx;
+    justify-content: center;
+    align-items: center;
+    padding: 5rpx;
+}
+
