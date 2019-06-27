@@ -3,18 +3,19 @@ var app = getApp()
 Page({
 
   /**
-   * 页面的初始数据
+   * 页面的初始数�?
    */
   data: {
     input_title:null,
-    input_content:null
+    input_content:null,
+    money:null
   },
   btnClick: function(){
-      
       console.log(this.data.input_content),
-
-      wx.navigateTo({
-        url: '../../pages/rt/rt',
+      wx.showToast({
+        title: '发布成功',
+        icon: 'success',
+        duration: 2000
       })
   },
   inp_title: function(e){
@@ -32,7 +33,7 @@ Page({
   },
 
   /**
-   * 生命周期函数--监听页面初次渲染完成
+   * 生命周期函数--监听页面初�?�渲染完�?
    */
   onReady: function () {
 
@@ -67,14 +68,14 @@ Page({
   },
 
   /**
-   * 页面上拉触底事件的处理函数
+   * 页面上拉触底事件的�?�理函数
    */
   onReachBottom: function () {
 
   },
 
   /**
-   * 用户点击右上角分享
+   * 用户点击右上角分�?
    */
   onShareAppMessage: function () {
 

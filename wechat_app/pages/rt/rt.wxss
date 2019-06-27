@@ -8,7 +8,7 @@ image{
 .rtask{
     display: flex;
     flex-direction: column;
-    border-bottom: 1px grey solid;
+    border-bottom: 10px rgb(243, 234, 234) solid;
 }
 .publisher{
     display: flex;
@@ -27,9 +27,18 @@ image{
     margin-left: 20rpx;
     font-size: 16px;
 }
+.money{
+    margin-left: 25rpx;
+    font-size: 30rpx;
+}
 .like_icon {
+    margin-left: 45rpx;
     width: 38rpx;
     height: 38rpx;
+}
+.zhengwen{
+    display: flex;
+    flex-direction: column;
 }
 .title{
     font-size: 35rpx;
@@ -50,5 +59,4 @@ image{
 
 .receive{
     font-size: 25rpx;
-    
 }

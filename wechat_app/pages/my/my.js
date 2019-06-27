@@ -4,30 +4,32 @@ Page({
   data: {
     userInfo: {},
     motto: 'Hello World',
+    //headshot
+    iconSrc: '../icons/user2.png',
     // orderItems
     orderItems: [{
         typeId: 0,
-        name: '待付款',
+        name: '进行中',
         url: 'bill',
-        imageurl: '../../images/person/personal_pay.png',
+      imageurl: '../../icons/jinxingzhong.png',
       },
       {
         typeId: 1,
-        name: '待发货',
+        name: '已完成',
         url: 'bill',
-        imageurl: '../../images/person/personal_shipped.png',
+        imageurl: '../../icons/yiwancheng.png',
       },
       {
         typeId: 2,
-        name: '待收货',
+        name: '已发布',
         url: 'bill',
-        imageurl: '../../images/person/personal_receipt.png'
+        imageurl: '../../icons/yifabu.png'
       },
       {
         typeId: 3,
-        name: '待评价',
+        name: '被完成',
         url: 'bill',
-        imageurl: '../../images/person/personal_comment.png'
+        imageurl: '../../icons/beiwancheng.png'
       }
     ],
   },

@@ -1,16 +1,18 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/home/home",
-    "pages/pt/pt",
+    "pages/test/test",
     "pages/rt/rt",
-    "pages/my/my",
+    "pages/pt/pt",
     "pages/recommend/recommend",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/my/my"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "挣闲钱",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -23,12 +25,6 @@
         "iconPath": "./icons/home1.png",
         "selectedIconPath": "./icons/home2.png",
         "text": "主页"
-      },
-      {
-        "pagePath": "pages/recommend/recommend",
-        "iconPath": "./icons/Recommend1.png",
-        "selectedIconPath": "./icons/Recommend2.png",
-        "text": "推荐"
       },
       {
         "pagePath": "pages/my/my",

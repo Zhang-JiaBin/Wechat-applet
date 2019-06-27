@@ -16,14 +16,17 @@
             <view class="publisher">
                 <image class="publishericon" src="{{item.publishericon}}" />
                 <text class="publishername" selectable="false" space="false"
-                    decode="false">{{item.publishername}}</text>
+                decode="false">{{item.publishername}}</text>
                 <text class="pdate" selectable="false" space="false" decode="false">{{item.pdate}}</text>
-                <image class="like_icon" src="../../icons/Recommend1.png"></image>
+                <text class="money">酬劳:{{item.money}}</text>
+                <image class="like_icon" catchtap="collectTap" src="../../icons/Recommend1.png"></image>
             </view>
-            <text class="title" selectable="false" space="false" decode="false">{{item.title}}</text>
-            <text class="intro" selectable="false" space="false" decode="false">{{item.intro}}</text>
+            <view class="zhengwen">
+                <text class="title" selectable="false" space="false" decode="false">{{item.title}}</text>
+                <text class="intro" selectable="false" space="false" decode="false">{{item.intro}}</text>
+            </view>
             <view  class="vreceive" hover-class="none" hover-stop-propagation="false">
-                <button class="receive" size="mini">领取</button>
+                <button class="receive" bindtap="btnfun" size="mini" >领取</button>
             </view>
         </view>
     </block>

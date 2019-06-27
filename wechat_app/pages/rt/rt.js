@@ -7,25 +7,34 @@ Page({
    * 页面的初始数�?
    */
   data: {
-      "indicaaator_dots":true,
-      "autoplay":true,
-      "publishericon": "../../icons/user1.png",
-      "publishername":"张三",
-      "pdate":"2019/6/24",
-      "title":null,
-      "intro":"明天18：00前去丰巢11号取快递。"
+      indicaaator_dots:true,
+      autoplay:true,
+      publishericon: "../../icons/user1.png",
+      publishername:"张三",
+      money:"2元",
+      pdate:"2019/6/24",
+      title:null,
+      intro:"明天18：00前去丰巢11号取快递。",
+      useData:""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(newsData);
     this.setData({
       useData:newsData.initData
     })
-    this.setData({
-      title: options.input_title
+    // wx.setStorageSync('key', 'data')
+    
+    
+    console.log(wx.getStorageSync('key'));
+  },
+  btnfun: function() {
+    wx.showToast({
+      title: '领取成功',
+      icon: 'success',
+      duration: 2000
     })
   },
 

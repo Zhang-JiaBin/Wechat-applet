@@ -5,18 +5,30 @@
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-.title{
-    width: 84%;
-    border-radius: 5rpx;
-    font-size: 32rpx;
+.ltitle{
     border-bottom: 1rpx grey solid;
-    padding: 5rpx;
+    padding: 10rpx;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5rpx;
+    padding: 10rpx;
+    width: 100%;
+}
+.receive{
+    margin-left: 50rpx;
+}
+.pmoney{
+    font-size: 28rpx;
+    border-bottom: 1rpx grey solid;
+    padding: 10rpx;
 }
 .content {
     border-radius: 10rpx;
     font-size: 28rpx;
     justify-content: center;
     align-items: center;
-    padding: 5rpx;
+    padding: 10rpx;
 }
 
